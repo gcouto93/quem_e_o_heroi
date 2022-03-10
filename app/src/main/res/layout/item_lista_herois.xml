@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageHeroi"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:src="@color/black"
+        android:padding="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="4dp">
+
+        <TextView
+            android:id="@+id/apelidoHeroi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apelido"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/nomeHeroi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="nome"
+            android:textStyle="italic"
+            android:layout_gravity="center_vertical"/>
+
+
+        <TextView
+            android:id="@+id/origemHeroi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="origem"
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+
+            android:id="@+id/bioHeroi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bio"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"/>
+
+
+</LinearLayout>
